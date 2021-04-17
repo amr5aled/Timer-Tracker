@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "296972570926",
+    "project_id": "time-tracker-course-flut-6511e",
+    "storage_bucket": "time-tracker-course-flut-6511e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296972570926:android:93218e42f962a13ca16abf",
+        "android_client_info": {
+          "package_name": "com.example.timetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296972570926-ovte03dea794ut18vtvqhus9frni2nod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timetracker",
+            "certificate_hash": "ef9537e8ca08eb8ed5394907a671e60f722b388c"
+          }
+        },
+        {
+          "client_id": "296972570926-qsdf4tr4vlvt67tog5g5vl2dels42sqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timetracker",
+            "certificate_hash": "b2638d842b0bfb0bd53ab093fb56098896e0e700"
+          }
+        },
+        {
+          "client_id": "296972570926-18h62j4i3md7g19ioeamnkt8d6n5jseg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYVTL69kS2giZk_H3ic6szURNcoFcmOHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296972570926-18h62j4i3md7g19ioeamnkt8d6n5jseg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
