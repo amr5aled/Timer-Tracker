@@ -28,11 +28,14 @@ Future<void> _confirmSignOut(BuildContext context) async {
           title: Text('Logout'),
           content: Text('Are you sure that in logout'),
           actions: <Widget>[
-            FloatingActionButton(
+            // ignore: deprecated_member_use
+            FlatButton(
               onPressed: () => Navigator.of(context).pop(true),
               child: Text('OK'),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
             ),
-            FloatingActionButton(
+            // ignore: deprecated_member_use
+            FlatButton(
               onPressed: () => Navigator.of(context).pop(false),
               child: Text('cancel'),
             )

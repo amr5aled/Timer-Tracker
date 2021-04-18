@@ -9,15 +9,17 @@ import 'dart:async';
 class SelectPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final auth = Provider.of<AuthResult>(context,listen: false);
+    final auth = Provider.of<AuthResult>(context, listen: false);
     return StreamBuilder<User>(
         stream: auth.authChangedStat,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.active) {
             User user = snapshot.data;
+            print('Result: ${snapshot.data}');
             if (user == null) {
-              return SignIN();
+              return SignIN.create(context);
             }
+            print('Result: ${snapshot.data}');
             return HomePage();
           } else {
             return Scaffold(

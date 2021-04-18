@@ -6,9 +6,10 @@ import 'package:google_sign_in/google_sign_in.dart';
 abstract class AuthResult {
   //no implement method//
   User get CurrentUser;
-  Future<User> signAnonymous();
+
   Future<void> sign_out();
   Stream<User> get authChangedStat;
+  Future<User> signAnonymous();
   Future<User> SignInGoogle();
   Future<User> SignInFacebook();
   Future<User> signWithEmail(String email, String pass);

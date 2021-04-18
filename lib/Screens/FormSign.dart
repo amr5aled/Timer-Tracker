@@ -62,7 +62,8 @@ class _FormSignState extends State<FormSign> {
               title: Text('Sign in failed'),
               content: Text(e.message),
               actions: <Widget>[
-                FloatingActionButton(
+                // ignore: deprecated_member_use
+                FlatButton(
                   onPressed: () => Navigator.of(context).pop(),
                   child: Text('OK'),
                 )
